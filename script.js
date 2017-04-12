@@ -1,6 +1,6 @@
 var body = document.getElementsByTagName('body')[0];
 
-for (let i=1; i<63; i++){
+for (let i=1; i<64; i++){
   if (i%2===0){
     var redTile = document.createElement('div');
     redTile.style.backgroundColor = 'red';
